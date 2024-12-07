@@ -1,3 +1,26 @@
-/* 
-    General Styles
-*/
+
+body {
+    background-color: #000000; 
+    color: #ffffff; 
+}
+
+.estrellas {
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-14_856985d9.jpeg?download=true");
+    background-size: cover;
+    height: 100px;
+}
+
+.titulo {
+    font-family: 'Star Wars', sans-serif;
+}
+
+.section-title {
+    background-color: #000; 
+    color: #ff0000; /* Letras rojas */
+    padding: 15px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    border-radius: 5px; /* Bordes redondeados opcionales */
+    font-weight: bold; /* Texto destacado */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+}
+
